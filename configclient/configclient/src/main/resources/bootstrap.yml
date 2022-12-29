@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: profiler
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:8888
+#      enabled: false
+#  config:
+#    import: optional:configtree:http://localhost:8888/
